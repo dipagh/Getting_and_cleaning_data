@@ -29,8 +29,12 @@ df_merged <- cbind(Subject, df_Y, df_X)
 
 #2. Extracts only the measurements on the mean and standard deviation 
 #for each measurement. 
+colnames(df_merged)
 
 df_tidy <- df_merged %>% select(subject, id, contains("mean"), contains("std"))
+
+#for checking correct column names selected or not
+colnames(df_tidy)
 
 #3. Uses descriptive activity names to name the activities in the data set
 
