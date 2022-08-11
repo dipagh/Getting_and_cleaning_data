@@ -1,7 +1,8 @@
 # Getting_and_cleaning_data
 This repository is a Getting and cleaning data submission project. It has instructions on how to download data for Human Activity Recognition Using Smartphones Dataset and clean the data .
-Files:
-CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
+# Files:
+CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data.
+
 run_analysis.R that perform the following. 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
